@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e; /* Darker background for better contrast */
+  color: #ffffff;
+}
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.App-header {
+  background-color: #20232a;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Typography */
+h1 {
+  font-size: 2.5em;
+  margin: 0 0 10px;
+  color: #61dafb;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 20px 0 10px;
+  color: #61dafb;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 15px 0 10px;
+  color: #61dafb;
+}
+
+p {
+  font-size: 1.1em;
+  margin: 10px 0;
+  color: #ffffff;
+  line-height: 1.8;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+section ul li {
+  background-color: #333842; /* Slightly lighter background for list items */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  font-size: 1em;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for list items */
+}
+
+/* Education and Job Styles */
+.education-item, .job-item {
+  margin-bottom: 20px;
+}
+
+.education-item h3, .job-item h3 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #61dafb;
+}
+
+.education-item p, .job-item p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+/* Volunteer and Internship Styles */
+.volunteer-item {
+  margin-bottom: 20px;
+}
+
+.volunteer-item h3 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #61dafb;
+}
+
+.volunteer-item p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.volunteer-item ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.volunteer-item ul li {
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+/* Skills and Interests Styles */
+.skills-list, .interests-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.skills-list li, .interests-list li {
+  background-color: #333842;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Availability and References Styles */
+.availability, .references {
+  margin-bottom: 20px;
+}
+
+.availability p, .references p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+/* Links (if any) */
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
