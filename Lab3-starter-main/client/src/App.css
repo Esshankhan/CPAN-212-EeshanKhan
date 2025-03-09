@@ -1,0 +1,57 @@
+/* General Styles */
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Logo Styling */
+.logo {
+  height: 5rem;
+  padding: 1rem;
+  transition: transform 300ms ease-in-out, filter 300ms ease-in-out;
+}
+.logo:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px rgba(100, 108, 255, 0.6));
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 10px rgba(97, 218, 251, 0.6));
+}
+
+/* Logo Animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo.animated {
+    animation: logo-spin infinite 10s linear;
+  }
+}
+
+/* Card Styling */
+.card {
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 300ms ease-in-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Text Styling */
+.read-the-docs {
+  color: #555;
+  font-size: 0.9rem;
+}
